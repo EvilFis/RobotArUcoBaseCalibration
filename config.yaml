@@ -1,0 +1,28 @@
+aruco_parameters:
+  dictionary: DICT_4X4_50
+  ids:
+  - 8
+  sidePixels: 300
+camera_parameters:
+  calibration_data_path: ./camera_param/chessboard_calib.npz
+  calibration_image_path: ./calibration_img
+  calibration_pattern_size:
+  - 6
+  - 9
+  calibration_type: chessboard
+  capture_id: 0
+  img_count: null
+  save_type: keyboard
+  time_limit: null
+detection_parameters:
+  aruco_real_size: 80
+  axis_lenght: 50
+  details_path: ./workpiece_models
+  l: 10
+  rTorch: 50
+  robot_position_xyz:
+  - 437.39
+  - 12.45
+  - 440.83
+  - 1
+  w: 5
